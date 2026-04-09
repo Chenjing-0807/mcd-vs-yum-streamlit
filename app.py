@@ -20,7 +20,7 @@ st.set_page_config(page_title="MCD vs YUM Analysis", layout="wide")
 @st.cache_data
 def load_and_process_data():
     # Load the raw dataset (Make sure your filename is correct here)
-    df_raw = pd.read_csv('fastfood_data.csv.csv')
+    df_raw = pd.read_csv('fastfood_data.csv.xls')
 
     # Standardize column names to uppercase
     df_raw.columns = df_raw.columns.str.upper()
