@@ -16,7 +16,7 @@ This interactive data product is designed to analyze the financial risk and retu
 Using historical daily stock prices sourced from the **WRDS CRSP database**, this project demonstrates the entire data analytics workflow taught in ACC102, from database extraction and Pandas-based data wrangling to AI-assisted interactive visualization.
 
 ## 🗂️ Files in this Repository 
-*   **`MCD_YUM_Data.csv`**: The raw historical stock price data extracted from WRDS.
+*   **`fastfood_data.csv.csv`**: The raw historical stock price data extracted from WRDS.
 *   **`app.py`**: The main Python script containing the Streamlit application logic, Pandas data cleaning, and Matplotlib/Plotly visualizations.
 *   **`Reflection_Report.pdf`**: A comprehensive reflection on the learning journey, troubleshooting process, limitations, and the mandatory AI Disclosure.
 *   **`README.md`**: This instructional documentation file.
@@ -27,7 +27,7 @@ If you wish to run this application on your local machine rather than viewing th
 1. Ensure you have Python installed.
 2. Install the required libraries by running the following command in your terminal:
    `pip install pandas streamlit matplotlib yfinance`
-3. Navigate to the folder containing `app.py` and `MCD_YUM_Data.csv`.
+3. Navigate to the folder containing `app.py` and `fastfood_data.csv.csv`.
 4. Run the Streamlit app using:
    `streamlit run app.py`
 5. The interactive dashboard will automatically open in your default web browser.
